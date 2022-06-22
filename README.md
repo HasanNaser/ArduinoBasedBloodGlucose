@@ -31,3 +31,16 @@ Kullanılan biyosensör glukoz test stripleri ön işleme devresine bağlanır. 
 Genellikle test şeritlerine üç elektrot yazdırılır: bir referans eliktrot, bir karşı elektrot ve bir çalışma elektrotu. Sabit bir voltaj uygulanır ve kan uygulandıktan sonra oluşan akım izlenir. Test stripleri markadan markaya değişebileceğinden, bazı modeller kullanıcının test stripleri şişesi üzerinde veya test stripi ile birlikte gelen bir çip üzerinde bulunan bir kodu manuel olarak girmesini gerektirir. Kodlama veya çipin glikoz ölçere girilmesiyle, ölçüm cihazı bu test şeritleri partisine göre kalibre edilecektir. Bu proje için kullanılan test şeritlerinin markası VivaCheck Eco.
 
 ![image006](https://user-images.githubusercontent.com/41211376/175030897-5314c4b9-b081-4f4a-9f2e-a0e426c91fe7.png)
+
+
+
+### Fotoğraflar
+
+![WhatsApp Image 2022-06-22 at 6 54 12 PM](https://user-images.githubusercontent.com/41211376/175083692-8aee25e3-bf76-4a53-b067-7d5307dad5c8.jpeg)
+![WhatsApp Image 2022-06-22 at 6 56 46 PM](https://user-images.githubusercontent.com/41211376/175083706-b98bcbba-e1c2-40a1-8ad4-dac70074e86c.jpeg)
+![WhatsApp Image 2022-06-22 at 6 54 03 PM](https://user-images.githubusercontent.com/41211376/175083716-7f7da5f0-e0cc-4e1f-a8a1-4ee78ca8bd31.jpeg)
+![WhatsApp Image 2022-06-22 at 6 54 09 PM](https://user-images.githubusercontent.com/41211376/175083719-5f0593aa-628b-43a9-acc0-a24dcf0fe771.jpeg)
+
+
+
+Bu çalışmada, kandaki yaklaşık glikoz seviyesini belirlemek için kullanılan Arduino UNO tabanlı sistemin donanım ve yazılım özellikleri anlatılmaktadır. Kan şekeri seviyelerini izlemek için Bio sensör kullanıldı. Gerekli yazılım Arduino 1.6.4 yazılımı kullanılarak C dilinde geliştirilmiştir. Bu çalışmada, test şeritleri kullandık, test şeridine bir damla kan yerleştirildiğinde, şerit üzerindeki elementlerle etkileşime girerek reaksiyona neden olur ve bir elektrik üretilir. Akım, IMA219 akım algılama modülüne gönderilir ve voltaja dönüştürülür. Bu voltaj, daha fazla işlem için Arduino UNO'ya ardından LCD'ye görüntülemek için gönderilir ve 3.parti cihazlara göndermek için bluetooth ile veri transferi gerçekleşir. 
